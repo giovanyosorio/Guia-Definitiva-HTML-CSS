@@ -20,7 +20,7 @@ HTML es la estructura, como si fuese el esqueleto de un ser humano o los cimient
 CSS corresponde a lo estético, como la piel de ser humanos. La pintura y adornos de los edificios o la manera en que es posible que la estructura del html se vea mejor para los usuarios.
 JavaScript equivale a los músculos, lo que da esa interactividad a las personas para moverse y realizar acciones como correr.
 
-![](htmlcssjs.webp)
+![](images/htmlcssjs.webp)
 
 # ¿Qué es el Frontend?
 
@@ -88,7 +88,7 @@ Por último, entramos en bases de datos, que son las encargadas de almacenar tod
 
 Full Stack es un término utilizado para describir a los desarrolladores que conocen tanto los lenguajes de frontend como de backend. Principalmente, el desarrollo full stack se refiere al uso de JavaScript en el backend y de HTML/CSS/JavaScript en el frontend para crear nuevas plataformas.
 
-![](fullstack.webp)
+![](images/fullstack.webp)
 
 El nacimiento de tecnologías que funcionan entre el frontend y el backend ha dado lugar a la proliferación de frameworks y herramientas de desarrollo full stack, que permiten a los desarrolladores construir sus propias aplicaciones web completas empleando un único lenguaje de programación, como Django para Python.
 
@@ -98,7 +98,7 @@ Las y los desarrolladores Full Stack son profesionales que se encargan tanto de 
 
 Un stack (en inglés: pila o montón) se refiere al grupo de tecnologías que componen un sitio web en todos los aspectos (desde la base de datos, hacia el manejo lógico y la interfaz visual). Una o un desarrollador Full Stack en teoría es capaz de manejar la pila completa de un sitio, tanto de frontend como de backend, además sabe utilizar su base de datos.
 
-![](img1.webp)
+![](images/img1.webp)
 
 
 ## Qué hace un desarrollador Full Stack
@@ -119,11 +119,11 @@ Aprender un stack conocido puede ayudarte a dar tus primeros pasos como desarrol
 
 * LAMP (Linux, Apache, MySQL, PHP)
 
-![](img2.webp)
+![](images/img2.webp)
 * MERN (MongoDB, Express.js, React, Node)
 * PERN (PostgreSQL, Express.js, React, Node)
 
-![](img3.webp)
+![](images/img3.webp)
 
 # Páginas Estáticas vs. Dinámicas
 
@@ -159,7 +159,7 @@ HTML (HyperText Markup Language) es un lenguaje de marcado de texto. Se utiliza 
 * Sidebar: contenido secundario de una página, que usualmente se encuentra a los lados del contenido principal (o main).
 * Footer: pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
 
-![](img4.webp)
+![](images/img4.webp)
 
 Las etiquetas en HTML nos ayudan a diferenciar en qué parte del contenido nos encontramos.
 
@@ -175,3 +175,13 @@ HTML son siglas que corresponden a Hyper Text Markup Language (Lenguaje de Marca
 * Markup significa que le pone etiquetas a los elementos. Por eso también se le conoce como un lenguaje de etiquetas.
 HTML es un lenguaje interpretado. Además, HTML es un estándar, así que no importa desde qué navegador o dispositivo se ejecute, el código sigue siendo el mismo en cualquier sitio.
 
+
+# Anatomía de una etiqueta de HTML
+
+Una etiqueta HTML puede tener tantos atributos como desees, y cada atributo tiene su propia función. En el siguiente ejemplo, veremos la forma en la que se compone una etiqueta HTML:
+
+![](images/Anatomia.png)
+
+* No todas las etiquetas llevan una etiqueta de cierre. Las que llevan un cierre son aquellas que albergan un contenido que nos dice a dónde nos va a llevar (nombre de la página, nombre del link).
+* Lo que va dentro de la etiqueta de apertura es un atributo (nombre del atributo = href y el valor del atributo es la url).
+* El contenido + la etiqueta = Elemento
