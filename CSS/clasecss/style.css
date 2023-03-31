@@ -1,0 +1,17 @@
+p{
+   
+    font-size: 30px;
+}
+*{
+    background-color: papayawhip;
+}
+
+/* classe */
+.parrafo{
+    color: burlywood;
+}
+/* id  */
+
+#texto{
+    color: tomato;
+}
