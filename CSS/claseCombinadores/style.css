@@ -1,0 +1,6 @@
+* {
+    background: papayawhip;
+}
+h2+p{
+    color: red;
+}
