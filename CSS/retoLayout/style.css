@@ -40,6 +40,6 @@
  }
  .primero >p{
     border:solid #5B6DCD 10px ;
-    height: 150px;
+    height: auto;
     
  }
